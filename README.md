@@ -6,7 +6,7 @@
 - 어디에 활용 가능한지
 
 ## File Structure
-
+```
 SDGlove/
 ├── data/
 │   └── s#/                                    # subject num
@@ -14,6 +14,7 @@ SDGlove/
 ├── visualization.py 
 ├── README.md                
 └── NOTICE.md                                  # Participant details??
+```
 
 ## tasks
 
