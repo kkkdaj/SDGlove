@@ -50,7 +50,7 @@ SDGlove/
 
 ## publications using this dataset
 
-- 추후 우리 데이터 사용한 논문이 생기면 지속적으로 추가? → 그냥 안해도 될 것 같긴함..ㅎ
+- 추후 우리 데이터 사용한 논문이 생기면 지속적으로 추가?
 
 ## license
 
