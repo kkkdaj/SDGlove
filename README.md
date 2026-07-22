@@ -1,16 +1,19 @@
 # SDGlove
 
 ## Overview
+- data name: SDGlove(Static and Dynamic hand gesture dataset with soft sensor embedded Glove)
+- 어떤 데이터인지
+- 어디에 활용 가능한지
 
-- 간략한 데이터셋 소개
-    - 어떤 데이터인지
-    - 어디에 활용 가능한지
+## File Structure
 
-## data availability
-
-- 데이터 이름
-- 데이터 경로 url? → 우리는 바로 깃에 공개?
-- 데이터 논문 → 우리는 없음
+SDGlove/
+├── data/
+│   └── s#/                                    # subject num
+│       └── {Gesture_num}_{Iteration_num}.csv  # Full dataset — 13,453 gesture records 
+├── visualization.py 
+├── README.md                
+└── NOTICE.md                                  # Participant details??
 
 ## tasks
 
