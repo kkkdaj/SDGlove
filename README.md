@@ -8,9 +8,9 @@
 ## File Structure
 ```
 SDGlove/
-├── data/
+├── SDGlove.zip                                # Full dataset — 13,453 gesture records 
 │   └── s#/                                    # subject num
-│       └── {Gesture_num}_{Iteration_num}.csv  # Full dataset — 13,453 gesture records 
+│       └── {Gesture_num}_{Iteration_num}.csv
 ├── visualization.py 
 ├── README.md                
 └── NOTICE.md                                  # Participant details??
