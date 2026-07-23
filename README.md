@@ -5,10 +5,10 @@
 ```
 SDGlove/
 ├── SDGlove.zip                                # Full dataset — 13,453 gesture records 
-│   └── s#/                                    # subject number
+│   └── s#/                                    # Participant number
 │       └── {Gesture_num}-{Iteration_num}.csv
 ├── visualization.py
-├── Participant_info.md                                # Participant details
+├── Participant_info.md                        # Participant details
 ├── README.md                
 └── NOTICE.md
 ```
@@ -23,11 +23,11 @@ Research using hand gesture recognition based on this dataset can be applied in 
 - VR/AR-based home training, healthcare, gaming, etc. 
 
 ## Data description
-- Data format: csv
+1. Data format: csv
     - {sbject number}/{gesture number}-{iteration number}.csv
-- Total number of data: 13,453 gesture
-- Length per iteration: approximately 5 seconds
-- Column description
+2. Total number of data: 13,453 gesture
+3. Length per iteration: approximately 5 seconds
+4. Column description
     | Column | Description |
     |-----|------|
     |sensor_1|Thumb MCP|
@@ -44,7 +44,7 @@ Research using hand gesture recognition based on this dataset can be applied in 
 
 
 ## Experimental setup
-- number of subject: 30
+- number of Participant: 30
 - number of gesture class: 12
   - Static gesture(S1~S7)
     <img width="800" height="240" alt="static_gesture" src="https://github.com/user-attachments/assets/4b40910c-f3b5-4f3e-9019-f3ba45c30d59" />
@@ -55,7 +55,7 @@ Research using hand gesture recognition based on this dataset can be applied in 
     - Sampling rate: Collected every 15ms
 
 - Collection procedure
-    - Glove worn on the subject's dominant han
+    - Glove worn on the Participant's dominant han
     - Each gesture performed 40 times in random order
     - Gesture performance duration: 5 seconds
     - Rest time between gestures: 3 seconds
@@ -71,17 +71,15 @@ Research using hand gesture recognition based on this dataset can be applied in 
 
 ---
 
-## citation
-- 다정 논문 게재 후 작성
+## citation(Bibtex)
+- If you want to cite our Datasets, you can use our paper:
 
 ## publications using this dataset
 
 - 추후 우리 데이터 사용한 논문이 생기면 지속적으로 추가?
 
 ## license
-
-- mit할건지 or 다른거 할건지 결정 후 작성
-- 우선 mit
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## remark
 
