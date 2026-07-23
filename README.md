@@ -1,7 +1,4 @@
-# SDGlove
-
-## Overview
-- Data name: SDGlove(Static and Dynamic hand gesture dataset with soft sensor embedded Glove)
+# SDGlove(Static and Dynamic hand gesture dataset with soft sensor embedded Glove)
 - This dataset consists of time-series sensor data collected while performing hand gestures wearing a soft sensor embedded glove. It includes both static and dynamic gestures, collected from a large number of subjects to provide richer soft sensor-based hand gesture data.
 
 ## File Structure
@@ -31,8 +28,19 @@ Research using hand gesture recognition based on this dataset can be applied in 
 - Total number of data: 13,453 gesture
 - Length per iteration: approximately 5 seconds
 - Column description
-    - timestamp
-    - sensor_1~snesor_10: 엄지mcp, 엄지pip, 검지mcp, 검지pip, 중지mcp, 중지pip, 약지mcp, 약지pip, 소지mcp, 소지pip, 
+    | Column | Description |
+    |-----|------|
+    |sensor_1|Thumb MCP|
+    |sensor_2|Thumb PIP|
+    |sensor_3|Index MCP|
+    |sensor_4|Index PIP|
+    |sensor_5|Middle MCP|
+    |sensor_6|Middle PIP|
+    |sensor_7|Ring MCP|
+    |sensor_8|Ring PIP|
+    |sensor_9|Little MCP|
+    |sensor_10|Little PIP|
+
 
 
 ## Experimental setup
