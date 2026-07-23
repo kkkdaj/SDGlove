@@ -5,7 +5,7 @@ This dataset consists of **time-series sensor data** collected while performing 
 ```
 SDGlove/
 ├── SDGlove.zip                                # Full dataset — 13,421 gesture records 
-│   └── s#/                                    # Participant number
+│   └── s#/                                   
 │       └── {Gesture_num}-{Iteration_num}.csv
 ├── visualization.py
 ├── Participant_info.md                        # Participant details
