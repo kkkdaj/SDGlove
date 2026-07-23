@@ -45,22 +45,23 @@ Research using hand gesture recognition based on this dataset can be applied in 
 ## Experimental setup
 1. **Number of Participants**: 30
 2. **Number of gesture classes**: 12
-  - Static gesture(S1~S7)
-  - Dynamic gesture(D1~D5)
+    - **Static gesture**(S1~S7)
+    - **Dynamic gesture**(D1~D5)
     <img width="800" height="240" alt="static_gesture" src="https://github.com/user-attachments/assets/4b40910c-f3b5-4f3e-9019-f3ba45c30d59" />
     <img width="800" height="295" alt="dynamic_gesture" src="https://github.com/user-attachments/assets/125bd14a-ecb1-4d82-90fb-91c636d79516" />
 3. **Data collection device**: Mollison Hand(soft sensor-embedded glove)
+    <img width="500" height="308" alt="mollisen_hand" src="https://github.com/user-attachments/assets/e70e9e7d-ac70-46ad-939b-11a251db5a64" />
     - Sensor configuration: Soft sensors at each finger joint (measuring resistance values based on the degree of flexion at MCP and PIP)
     - Sampling rate: Collected every 15ms
-  <img width="500" height="308" alt="mollisen_hand" src="https://github.com/user-attachments/assets/e70e9e7d-ac70-46ad-939b-11a251db5a64" />
 
-4. **Collection procedure**
+
+5. **Collection procedure**
     - Glove worn on the Participant's dominant hand
     - Each gesture performed 40 times in random order.
     - Gesture performance duration: 5 seconds
     - Rest time between gestures: 3 seconds
  
-5. **Basic preprocessing** (for incorrectly performed gestures)
+6. **Basic preprocessing** (for incorrectly performed gestures)
     - If a gesture from a different class was performed → relabeled to the corresponding class
     - If a completely incorrect gesture was performed → removed
 
