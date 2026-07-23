@@ -4,7 +4,7 @@ This dataset consists of **time-series sensor data** collected while performing 
 ## File Structure
 ```
 SDGlove/
-├── SDGlove.zip                                # Full dataset — 13,453 gesture records 
+├── SDGlove.zip                                # Full dataset — 13,421 gesture records 
 │   └── s#/                                    # Participant number
 │       └── {Gesture_num}-{Iteration_num}.csv
 ├── visualization.py
@@ -24,7 +24,7 @@ Research using hand gesture recognition based on this dataset can be applied in 
 
 ## Data description
 1. **Data format**: CSV
-2. **Total number of data**: 13,453 gestures
+2. **Total number of data**: 13,421 gestures
 3. **Length per iteration**: approximately 5 seconds
 4. **Column description**
     | Column | Description |
