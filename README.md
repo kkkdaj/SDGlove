@@ -43,7 +43,7 @@ Research using hand gesture recognition based on this dataset can be applied in 
 
 
 ## Experimental setup
-1. **Number of Participants**: 30
+1. **Number of [Participants](./Participant_info.md)**: 30
 2. **Number of gesture classes**: 12
     - **Static gesture**(S1~S7)
     - **Dynamic gesture**(D1~D5)
