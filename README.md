@@ -1,43 +1,62 @@
 # SDGlove
 
 ## Overview
-- data name: SDGlove(Static and Dynamic hand gesture dataset with soft sensor embedded Glove)
-- 어떤 데이터인지
-- 어디에 활용 가능한지
+- Data name: SDGlove(Static and Dynamic hand gesture dataset with soft sensor embedded Glove)
+- This dataset consists of time-series sensor data collected while performing hand gestures wearing a soft sensor embedded glove. It includes both static and dynamic gestures, collected from a large number of subjects to provide richer soft sensor-based hand gesture data.
 
 ## File Structure
 ```
 SDGlove/
-├── data/
-│   └── s#/                                    # subject num
-│       └── {Gesture_num}_{Iteration_num}.csv  # Full dataset — 13,453 gesture records 
-├── visualization.py 
+├── SDGlove.zip                                # Full dataset — 13,453 gesture records 
+│   └── s#/                                    # subject number
+│       └── {Gesture_num}-{Iteration_num}.csv
+├── visualization.py
+├── Participant_info.md                                # Participant details
 ├── README.md                
-└── NOTICE.md                                  # Participant details??
+└── NOTICE.md
 ```
 
-## tasks
+## Tasks
+Research using hand gesture recognition based on this dataset can be applied in environments such as:
+- Virtual safety training and robot teleoperation in hazardous industrial processes (manufacturing, construction, etc.)
+- Supporting post-surgical patients in accurately and independently performing repeated hand rehabilitation exercises
+- Sign language education
+- Assistive communication devices that convert hand gestures into text/speech for the hearing impaired
+- Sports motion analysis and coaching
+- VR/AR-based home training, healthcare, gaming, etc. 
 
-- 데이터 사용 가능한 tasks
-
-## data description
-
-- 데이터 형식
-- 총 데이터 개수
-- 데이터 수집 장치: 손가락마다의 소프트센서
-- 데이터 수집 방법: 피험자 모집해서 직접 수집?
-- 데이터 관련 상세 설명
-    - 측정 단위, 측정 속도
-    - 파일 형식
-- 데이터 column 소개
+## Data description
+- Data format: csv
+    - {sbject number}/{gesture number}-{iteration number}.csv
+- Total number of data: 13,453 gesture
+- Length per iteration: approximately 5 seconds
+- Column description
+    - timestamp
+    - sensor_1~snesor_10: 엄지mcp, 엄지pip, 검지mcp, 검지pip, 중지mcp, 중지pip, 약지mcp, 약지pip, 소지mcp, 소지pip, 
 
 
-## experimental setup
+## Experimental setup
+- number of subject: 30
+- number of gesture class: 12
+  - Static gesture(S1~S7)
+    <img width="800" height="240" alt="static_gesture" src="https://github.com/user-attachments/assets/4b40910c-f3b5-4f3e-9019-f3ba45c30d59" />
+  - Dynamic gesture(D1~D5)
+    <img width="800" height="295" alt="dynamic_gesture" src="https://github.com/user-attachments/assets/125bd14a-ecb1-4d82-90fb-91c636d79516" />
+- Data collection device: Mollison Hand(soft sensor embedded glove)
+    - Sensor configuration: Soft sensors at each finger joint (measuring resistance values based on the degree of flexion at MCP and PIP)
+    - Sampling rate: Collected every 15ms
 
-- 사용한 센서 글러브 소개
-- 제스처 종류
+- Collection procedure
+    - Glove worn on the subject's dominant han
+    - Each gesture performed 40 times in random order
+    - Gesture performance duration: 5 seconds
+    - Rest time between gestures: 3 seconds
+ 
+- Basic preprocessing (for incorrectly performed gestures)
+  1. If a gesture from a different class was performed → relabeled to the corresponding class
+  2. If a completely incorrect gesture was performed → removed
 
-  
+
 ## usage
 
 - (시각화 예시 코드 제공 시) 코드 사용 방법 및 시각화 결과 예시 등
@@ -45,22 +64,16 @@ SDGlove/
 ---
 
 ## citation
-
-- 데이터셋 사용시 어떤걸 인용?
+- 다정 논문 게재 후 작성
 
 ## publications using this dataset
 
-- 추후 우리 데이터 사용한 논문이 생기면 지속적으로 추가? → 그냥 안해도 될 것 같긴함..ㅎ
+- 추후 우리 데이터 사용한 논문이 생기면 지속적으로 추가?
 
 ## license
 
 - mit할건지 or 다른거 할건지 결정 후 작성
 - 우선 mit
-
-## acknowledgement
-
-- 교수님 감사합니다!
-- 사사표기?
 
 ## remark
 
