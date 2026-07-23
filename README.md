@@ -52,7 +52,7 @@ Research using hand gesture recognition based on this dataset can be applied in 
 3. **Data collection device**: Mollison Hand(soft sensor-embedded glove)
     - Sensor configuration: Soft sensors at each finger joint (measuring resistance values based on the degree of flexion at MCP and PIP)
     - Sampling rate: Collected every 15ms
-  <img width="3446" height="2122" alt="mollisen_hand" src="https://github.com/user-attachments/assets/e70e9e7d-ac70-46ad-939b-11a251db5a64" />
+  <img width="500" height="308" alt="mollisen_hand" src="https://github.com/user-attachments/assets/e70e9e7d-ac70-46ad-939b-11a251db5a64" />
 
 4. **Collection procedure**
     - Glove worn on the Participant's dominant hand
@@ -61,8 +61,8 @@ Research using hand gesture recognition based on this dataset can be applied in 
     - Rest time between gestures: 3 seconds
  
 5. **Basic preprocessing** (for incorrectly performed gestures)
-  1. If a gesture from a different class was performed → relabeled to the corresponding class
-  2. If a completely incorrect gesture was performed → removed
+    - If a gesture from a different class was performed → relabeled to the corresponding class
+    - If a completely incorrect gesture was performed → removed
 
 
 ## usage
