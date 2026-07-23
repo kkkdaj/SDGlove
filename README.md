@@ -2,8 +2,7 @@
 
 ## Overview
 - Data name: SDGlove(Static and Dynamic hand gesture dataset with soft sensor embedded Glove)
-- 이 데이터는 soft sensor embedded glove을 착용한 상태로 hand gesture를 수행하며 수집된 시계열 센서 데이터입니다.
-- 정적 동작과 동적 동작을 모두 포함하며, 다수의 피험자를 대상으로 실험을 진행하여 보다 풍성한 soft sensor 기반 hand gesture 데이터를 제공합니다.
+- This dataset consists of time-series sensor data collected while performing hand gestures wearing a soft sensor embedded glove. It includes both static and dynamic gestures, collected from a large number of subjects to provide richer soft sensor-based hand gesture data.
 
 ## File Structure
 ```
@@ -18,18 +17,20 @@ SDGlove/
 ```
 
 ## Tasks
-이 데이터를 통한 hand gesture recognition 연구는 아래와 같은 환경에서 활용될 수 있습니다.
-- 위험한 공정(제조, 건설 등) 환경에서의 가상 안전 교육
-- 수술 후 환자들이 여러 손 동작을 수행하며 스스로 재활 치료를 수행할 수 있도록 지원
-- 수화 교육
-- VR/AR 활용 홈트레이닝, 헬스케어, 게임 등
+Research using hand gesture recognition based on this dataset can be applied in environments such as:
+- Virtual safety training and robot teleoperation in hazardous industrial processes (manufacturing, construction, etc.)
+- Supporting post-surgical patients in accurately and independently performing repeated hand rehabilitation exercises
+- Sign language education
+- Assistive communication devices that convert hand gestures into text/speech for the hearing impaired
+- Sports motion analysis and coaching
+- VR/AR-based home training, healthcare, gaming, etc. 
 
 ## Data description
-- 데이터 형식: csv
+- Data format: csv
     - {sbject number}/{gesture number}-{iteration number}.csv
-- 총 데이터 개수: 13,453 gesture
-- 한 iteration 당 길이: 약 5초
-- 데이터 column 소개
+- Total number of data: 13,453 gesture
+- Length per iteration: approximately 5 seconds
+- Column description
     - timestamp
     - sensor_1~snesor_10: 엄지mcp, 엄지pip, 검지mcp, 검지pip, 중지mcp, 중지pip, 약지mcp, 약지pip, 소지mcp, 소지pip, 
 
@@ -43,7 +44,6 @@ SDGlove/
     <img width="800" height="295" alt="dynamic_gesture" src="https://github.com/user-attachments/assets/125bd14a-ecb1-4d82-90fb-91c636d79516" />
 - 수집 장비: Mollison Hand(soft sensor embedded glove)
     - 센서 구성: 손가락 관절별 소프트 센서(MCP, PIP의 굽힘 정도에 따른 저항값 측정)
-    - 측정 단위:
     - 측정 속도: 15ms마다 수집
 
 - 수집 방법
