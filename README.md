@@ -42,19 +42,19 @@ Research using hand gesture recognition based on this dataset can be applied in 
     <img width="800" height="240" alt="static_gesture" src="https://github.com/user-attachments/assets/4b40910c-f3b5-4f3e-9019-f3ba45c30d59" />
   - Dynamic gesture(D1~D5)
     <img width="800" height="295" alt="dynamic_gesture" src="https://github.com/user-attachments/assets/125bd14a-ecb1-4d82-90fb-91c636d79516" />
-- 수집 장비: Mollison Hand(soft sensor embedded glove)
-    - 센서 구성: 손가락 관절별 소프트 센서(MCP, PIP의 굽힘 정도에 따른 저항값 측정)
-    - 측정 속도: 15ms마다 수집
+- Data collection device: Mollison Hand(soft sensor embedded glove)
+    - Sensor configuration: Soft sensors at each finger joint (measuring resistance values based on the degree of flexion at MCP and PIP)
+    - Sampling rate: Collected every 15ms
 
-- 수집 방법
-    - 피험자의 주 사용 손에 장갑 착용
-    - 각 제스처를 40회씩 랜덤한 순서로 수행
-    - 제스처 수행 시간: 5초
-    - 제스처 간 쉬는 시간: 3초
+- Collection procedure
+    - Glove worn on the subject's dominant han
+    - Each gesture performed 40 times in random order
+    - Gesture performance duration: 5 seconds
+    - Rest time between gestures: 3 seconds
  
-- 기본 전처리(잘못 수행된 제스처에 대해)
-  1) 다른 class의 동작 수행한 경우 → 해당 동작으로 재라벨링
-  2) 완전히 틀린 동작을 수행한 경우 → 삭제
+- Basic preprocessing (for incorrectly performed gestures)
+  1. If a gesture from a different class was performed → relabeled to the corresponding class
+  2. If a completely incorrect gesture was performed → removed
 
 
 ## usage
