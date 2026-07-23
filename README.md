@@ -1,5 +1,5 @@
 # SDGlove(Static and Dynamic hand gesture dataset with soft sensor embedded Glove)
-This dataset consists of **time-series sensor data** collected while performing hand gestures wearing a **soft sensor embedded glove**. It includes both **static and dynamic gestures**, collected from a **large number of subjects** to provide richer soft sensor-based hand gesture data.
+This dataset consists of **time-series sensor data** collected while performing hand gestures wearing a **soft sensor-embedded glove**. It includes both **static and dynamic gestures**, collected from a **large number of subjects** to provide richer soft-sensor-based hand-gesture data.
 
 ## File Structure
 ```
@@ -23,11 +23,11 @@ Research using hand gesture recognition based on this dataset can be applied in 
 - VR/AR-based home training, healthcare, gaming, etc. 
 
 ## Data description
-1. Data format: csv
+1. **Data format**: csv
     - {sbject number}/{gesture number}-{iteration number}.csv
-2. Total number of data: 13,453 gesture
-3. Length per iteration: approximately 5 seconds
-4. Column description
+2. **Total number of data**: 13,453 gestures
+3. **Length per iteration**: approximately 5 seconds
+4. **Column description**
     | Column | Description |
     |-----|------|
     |sensor_1|Thumb MCP|
@@ -44,23 +44,24 @@ Research using hand gesture recognition based on this dataset can be applied in 
 
 
 ## Experimental setup
-- number of Participant: 30
-- number of gesture class: 12
+1. **Number of Participant**: 30
+2. **Number of gesture class**: 12
   - Static gesture(S1~S7)
-    <img width="800" height="240" alt="static_gesture" src="https://github.com/user-attachments/assets/4b40910c-f3b5-4f3e-9019-f3ba45c30d59" />
   - Dynamic gesture(D1~D5)
+    <img width="800" height="240" alt="static_gesture" src="https://github.com/user-attachments/assets/4b40910c-f3b5-4f3e-9019-f3ba45c30d59" />
     <img width="800" height="295" alt="dynamic_gesture" src="https://github.com/user-attachments/assets/125bd14a-ecb1-4d82-90fb-91c636d79516" />
-- Data collection device: Mollison Hand(soft sensor embedded glove)
+3. **Data collection device**: Mollison Hand(soft sensor embedded glove)
     - Sensor configuration: Soft sensors at each finger joint (measuring resistance values based on the degree of flexion at MCP and PIP)
     - Sampling rate: Collected every 15ms
+  <img width="3446" height="2122" alt="mollisen_hand" src="https://github.com/user-attachments/assets/e70e9e7d-ac70-46ad-939b-11a251db5a64" />
 
-- Collection procedure
-    - Glove worn on the Participant's dominant han
+4. **Collection procedure**
+    - Glove worn on the Participant's dominant hand
     - Each gesture performed 40 times in random order
     - Gesture performance duration: 5 seconds
     - Rest time between gestures: 3 seconds
  
-- Basic preprocessing (for incorrectly performed gestures)
+5. **Basic preprocessing** (for incorrectly performed gestures)
   1. If a gesture from a different class was performed → relabeled to the corresponding class
   2. If a completely incorrect gesture was performed → removed
 
@@ -75,11 +76,11 @@ Research using hand gesture recognition based on this dataset can be applied in 
 - If you want to cite our Datasets, you can use our paper:
 
 ## publications using this dataset
-
-- 추후 우리 데이터 사용한 논문이 생기면 지속적으로 추가?
+| Paper title | Journal/Conference | Year |
+    |-----|------|-----|
 
 ## license
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 ## remark
 
