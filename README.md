@@ -87,5 +87,3 @@ our bibtex
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 ## remark
-
-- 기타 안내 사항
