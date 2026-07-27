@@ -56,7 +56,7 @@ Research using hand gesture recognition based on this dataset can be applied in 
 
 
 5. **Collection procedure**
-    - Glove worn on the Participant's dominant hand
+    - Glove worn on the participant's dominant hand
     - Each gesture performed 40 times in random order.
     - Gesture performance duration: 5 seconds
     - Rest time between gestures: 3 seconds
