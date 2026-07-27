@@ -88,8 +88,8 @@ jupyter nbconvert --to notebook --execute --inplace per_class_visualization.ipyn
 
 ---
 
-## citation(Bibtex)
-- If you want to cite our Datasets, you can use our paper:
+## citation (Bibtex)
+- If you want to cite our datasets, you can use our paper:
 ```
 our bibtex
 ```
