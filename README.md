@@ -7,7 +7,8 @@ SDGlove/
 ├── SDGlove.zip                                # Full dataset — 13,421 gesture records 
 │   └── s#/                                   
 │       └── {Gesture_num}-{Iteration_num}.csv
-├── visualization.py
+├── per_class_visualization.ipynb
+├── per_class_s25.png                          # Visualization example
 ├── Participant_info.md                        # Participant details
 ├── README.md                
 └── NOTICE.md
