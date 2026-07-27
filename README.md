@@ -49,7 +49,7 @@ Research using hand gesture recognition based on this dataset can be applied in 
     - **Dynamic gesture**(D1~D5)
     <img width="800" height="240" alt="static_gesture" src="https://github.com/user-attachments/assets/4b40910c-f3b5-4f3e-9019-f3ba45c30d59" />
     <img width="800" height="295" alt="dynamic_gesture" src="https://github.com/user-attachments/assets/125bd14a-ecb1-4d82-90fb-91c636d79516" />
-3. **Data collection device**: Mollison Hand(Feel the Same Inc., Korea, soft sensor-embedded glove)
+3. **Data collection device**: Mollison Hand (Feel the Same Inc., Korea, soft sensor-embedded glove)
     <img width="500" height="308" alt="mollisen_hand" src="https://github.com/user-attachments/assets/e70e9e7d-ac70-46ad-939b-11a251db5a64" />
     - Sensor configuration: Soft sensors at each finger joint (measuring resistance values based on the degree of flexion at MCP and PIP)
     - Sampling rate: Collected every 15ms
