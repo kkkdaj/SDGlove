@@ -15,12 +15,14 @@ SDGlove/
 
 ## Tasks
 Research using hand gesture recognition based on this dataset can be applied in environments such as:
-- Virtual safety training and robot teleoperation in hazardous industrial processes (manufacturing, construction, etc.)
-- Supporting post-surgical patients in accurately and independently performing repeated hand rehabilitation exercises
-- Sign language education
-- Assistive communication devices that convert hand gestures into text/speech for the hearing impaired
-- Sports motion analysis and coaching
-- VR/AR-based home training, healthcare, gaming, etc. 
+- Virtual safety training and robot teleoperation
+- Healthcare
+    - Hand rehabilitation exercises
+    - Assistive communication devices 
+    - Sign language education
+- VR/AR devices
+    - User interface (UI) and menu navigation
+    - Virtual object and content interaction
 
 ## Data description
 1. **Data format**: CSV
