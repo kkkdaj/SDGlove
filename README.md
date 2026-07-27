@@ -1,7 +1,7 @@
 # SDGlove(Static and Dynamic hand gesture dataset with soft sensor-embedded Glove)
 This dataset consists of **time-series sensor data** collected while performing hand gestures wearing a **soft sensor-embedded glove**. It includes both **static and dynamic gestures**, collected from **30 subjects** to provide richer soft-sensor-based hand-gesture data.
 
-## File Structure
+## File structure
 ```
 SDGlove/
 ├── SDGlove.zip                                # Full dataset — 13,421 gesture records 
@@ -68,7 +68,7 @@ Research using hand gesture recognition based on this dataset can be applied in 
     - If a completely incorrect gesture was performed → removed
 
 
-## usage
+## Usage
 ### Requirements
 ```bash
 pip install numpy pandas matplotlib jupyter
