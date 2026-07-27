@@ -8,7 +8,7 @@ SDGlove/
 │   └── s#/                                   
 │       └── {Gesture_num}-{Iteration_num}.csv
 ├── per_class_visualization.ipynb
-├── per_class_s25.png                          # Visualization example
+├── per_class_s25.png                          # Per-class visualization example
 ├── Participant_info.md                        # Participant details
 ├── README.md                
 └── NOTICE.md
