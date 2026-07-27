@@ -47,8 +47,8 @@ Research using hand gesture recognition based on this dataset can be applied in 
 ## Experimental setup
 1. **Number of [Participants](./Participant_info.md)**: 30
 2. **Number of gesture classes**: 12
-    - **Static gesture**(S1~S7)
-    - **Dynamic gesture**(D1~D5)
+    - **Static gesture** (S1~S7)
+    - **Dynamic gesture** (D1~D5)
     <img width="800" height="240" alt="static_gesture" src="https://github.com/user-attachments/assets/4b40910c-f3b5-4f3e-9019-f3ba45c30d59" />
     <img width="800" height="295" alt="dynamic_gesture" src="https://github.com/user-attachments/assets/125bd14a-ecb1-4d82-90fb-91c636d79516" />
 3. **Data collection device**: Mollison Hand (Feel the Same Inc., Korea, soft sensor-embedded glove)
