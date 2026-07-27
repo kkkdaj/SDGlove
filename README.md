@@ -81,7 +81,7 @@ pip install numpy pandas matplotlib jupyter
 jupyter nbconvert --to notebook --execute --inplace per_class_visualization.ipynb
 ```
 
-### Example output
+### Output
 <img width="800" alt="sdglove_per_class_example" src="per_class_s25.png" />
 
 *Example: 12 gesture classes (S1–S7, D1–D5) for one randomly sampled participant (s25), each subplot overlaying the 10 sensor channels over time.*
