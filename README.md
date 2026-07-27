@@ -11,7 +11,7 @@ SDGlove/
 ├── per_class_s25.png                          # Per-class visualization example
 ├── Participant_info.md                        # Participant details
 ├── README.md                
-└── NOTICE.md
+└── LICENSE
 ```
 
 ## Tasks
@@ -42,7 +42,8 @@ Research using hand gesture recognition based on this dataset can be applied in 
     |sensor_8|Ring PIP|
     |sensor_9|Little MCP|
     |sensor_10|Little PIP|
-
+    * MCP: Metacarpophalangeal joints
+    * PIP: Proximal interphalangeal joints
 
 
 ## Experimental setup
