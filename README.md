@@ -69,8 +69,22 @@ Research using hand gesture recognition based on this dataset can be applied in 
 
 
 ## usage
+### Requirements
+```bash
+pip install numpy pandas matplotlib jupyter
+```
 
-- (시각화 예시 코드 제공 시) 코드 사용 방법 및 시각화 결과 예시 등
+### Per-class visualization
+`sdglove_class_visualization.ipynb` randomly selects one participant from `SDGlove/`, then randomly picks one instance per gesture class (S1–S7, D1–D5) and plots the 10 sensor channels (`sensor_1`–`sensor_10`) as time series, with all 12 classes shown together in a single figure (one subplot per class, x-axis = time, y-axis = sensor value).
+
+```bash
+jupyter nbconvert --to notebook --execute --inplace sdglove_class_visualization.ipynb
+```
+
+### Example output
+<img width="800" alt="sdglove_per_class_example" src="per_class_s25.png" />
+
+*Example: 12 gesture classes (S1–S7, D1–D5) for one randomly sampled participant, each subplot overlaying the 10 sensor channels over time.*
 
 ---
 
