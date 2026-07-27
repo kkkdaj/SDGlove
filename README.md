@@ -75,7 +75,7 @@ pip install numpy pandas matplotlib jupyter
 ```
 
 ### Per-class visualization
-`per_class_visualization.ipynb` randomly selects one participant from `SDGlove/`, then randomly picks one instance per gesture class (S1–S7, D1–D5) and plots the 10 sensor channels (`sensor_1`–`sensor_10`) as time series, with all 12 classes shown together in a single figure (one subplot per class).
+`per_class_visualization.ipynb` randomly selects one participant from `SDGlove/`, then randomly picks one instance per gesture class (`S1–S7`, `D1–D5`) and plots the 10 sensor channels (`sensor_1`–`sensor_10`) as time series, with all 12 classes shown together in a single figure (one subplot per class).
 
 ```bash
 jupyter nbconvert --to notebook --execute --inplace per_class_visualization.ipynb
