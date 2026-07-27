@@ -1,5 +1,5 @@
 # SDGlove(Static and Dynamic hand gesture dataset with soft sensor-embedded Glove)
-This dataset consists of **time-series sensor data** collected while performing hand gestures wearing a **soft sensor-embedded glove**. It includes both **static and dynamic gestures**, collected from a **30 subjects** to provide richer soft-sensor-based hand-gesture data.
+This dataset consists of **time-series sensor data** collected while performing hand gestures wearing a **soft sensor-embedded glove**. It includes both **static and dynamic gestures**, collected from **30 subjects** to provide richer soft-sensor-based hand-gesture data.
 
 ## File Structure
 ```
