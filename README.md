@@ -90,18 +90,18 @@ jupyter nbconvert --to notebook --execute --inplace per_class_visualization.ipyn
 
 ---
 
-## citation (Bibtex)
+## Citation (Bibtex)
 - If you want to cite our datasets, you can use our paper:
 ```
 our bibtex
 ```
 
-## publications using this dataset
+## Publications using this dataset
 
 | Paper title | Journal/Conference | Year |
 |-----|------|-----|
 
-## license
+## License
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
-## remark
+## Remark
